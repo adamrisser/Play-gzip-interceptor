@@ -1,0 +1,18 @@
+A simple way to gzip responses in play.
+
+How to include.
+
+1. Add file to app/controllers/
+
+2. Add @With(Gzip.class) to the controller where you want your responses gzipped.
+
+@With(Gzip.class)
+public class MyController extends Controller {
+    ...
+}
+
+3. Open the door
+
+4. Get on the floor
+
+5. Everybody walk the dinosaur
